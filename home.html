@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Timestamp MS</title>
+</head>
+<style>
+	body{ text-align: center; }
+</style>
+<body>
+	<h2>API : Timestamp Microservice</h2>
+	<p>Pass a time format (unix or date), its return JSON timestamp.</p>
+
+	<h3>Time Formats</h3>
+	<span>Date : </span><a href = "http://localhost:8080/May 22 1990">
+	http://localhost:8080/May%22%1990</a><br>
+	<span>Unix : </span><a href = "http://localhost:8080/643305600">
+	http://localhost:8080/643305600</a>
+	<h3>Return Value</h3>
+	<p>{"unix":643305600,
+			"natural":"May 22, 1990"}</p>
+</body>
+</html>
