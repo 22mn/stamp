@@ -1,0 +1,29 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "freeCodeCamp project",
+  "main": "server.js",
+  "scripts": {
+    "test": "server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgjean/stamp.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "timestamp"
+  ],
+  "author": "mgjean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgjean/stamp/issues"
+  },
+  "homepage": "https://github.com/mgjean/stamp#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {}
+}
